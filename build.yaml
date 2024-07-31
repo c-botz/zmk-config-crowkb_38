@@ -22,4 +22,3 @@ include:
     shield: crowkb_38_left nice_view_adapter nice_view
   - board: nice_nano_v2
     shield: crowkb_38_right nice_view_adapter nice_view
-  - board: nice_nano_v2
