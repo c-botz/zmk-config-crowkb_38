@@ -11,10 +11,6 @@
 #define GAME    4
 #define BT      5
 
-&msc {
-  time-to-max-speed-ms = <500>;                 /* <--- How long time until max speed is reached */
-};
-
 / {
     behaviors {
         td0: tap_dance_0 {
@@ -62,7 +58,7 @@
         };
         system_layer {
             bindings = <
-            &none   &kp F1  &kp F2  &kp F3  &kp F4      &kp PSCRN   &kp PAUSE_BREAK &none       &none       &mo 4
+            &none   &kp F1  &kp F2  &kp F3  &kp F4      &kp PSCRN   &kp PAUSE_BREAK &kp CAPS    &none       &mo 4
     &none   &none   &kp F5  &kp F6  &kp F7  &kp F8      &kp PG_UP   &kp HOME        &kp UP      &kp END     &none   &tog 3
             &none   &kp F9  &kp F10 &kp F11 &kp F12     &kp PG_DN   &kp LEFT        &kp DOWN    &kp RIGHT   &none
                                             &kp C_MUTE  &none
