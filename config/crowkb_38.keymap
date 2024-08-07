@@ -63,7 +63,7 @@
                                             &kp C_MUTE  &none
                             &trans  &trans  &trans      &trans      &trans          &trans
             >;
-//            sensor-bindings = <&inc_dec_kp C_AC_ZOOM_IN C_AC_ZOOM_OUT &inc_dec_kp SCROLL_UP SCROLL_DOWN>;
+//            sensor-bindings = <&inc_dec_kp C_AC_ZOOM_IN C_AC_ZOOM_OUT &inc_dec_kp K_SCROLL_UP K_SCROLL_DOWN>;
         };
         game_layer {
             bindings = <
@@ -73,7 +73,7 @@
                                                     &kp C_MUTE  &none
                                     &LALT   &SPACE  &ESC        &none   &none   &none
             >;
-//            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp SCROLL_UP SCROLL_DOWN>; 
+//            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp K_SCROLL_UP K_SCROLL_DOWN>; 
         };
         bt_layer {
             bindings = <
@@ -83,7 +83,7 @@
                                                                     &kp C_MUTE      &none
                                           &none        &none        &none           &none   &none   &none
             >;
-//            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp SCROLL_UP SCROLL_DOWN>;
+//            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp K_SCROLL_UP K_SCROLL_DOWN>;
         };
     };
 }; 
