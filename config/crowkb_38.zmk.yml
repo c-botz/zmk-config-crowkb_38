@@ -8,6 +8,7 @@ exposes: [i2c_oled]
 features:
   - keys
   - display
+  - encoder
 siblings:
   - crowkb_38_left
   - crowkb_38_right
