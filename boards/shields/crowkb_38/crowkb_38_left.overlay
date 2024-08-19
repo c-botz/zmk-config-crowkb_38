@@ -1,0 +1,5 @@
+#include "crowkb_38.dtsi"
+
+&left_encoder {
+    status = "okay";
+};
