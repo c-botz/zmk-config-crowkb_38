@@ -1,4 +1,4 @@
-# crowkb ZMK Config
+# crowkb_38 ZMK Config
 
 ## Instructions
 
